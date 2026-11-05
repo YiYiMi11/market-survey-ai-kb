@@ -1,5 +1,9 @@
 # 市调大赛 AI 知识库
 
+[![Questions](https://img.shields.io/badge/questions-610-2f6feb.svg)](#题库覆盖)
+[![Python](https://img.shields.io/badge/python-3.8%2B-3776ab.svg)](#快速开始)
+[![WorkBuddy](https://img.shields.io/badge/WorkBuddy-%E9%82%80%E8%AF%B7%E6%B3%A8%E5%86%8C-1f8f6f.svg)](https://www.workbuddy.cn/events/invite?inviteCode=08foyuwog)
+
 面向 **全国大学生市场调查与分析大赛（市调大赛）理论网考** 的本地知识库：610 道历年模拟题可检索，18 章知识卡片可复习，开卷时按题干秒定位原题与答案依据。
 
 > 第一次用？直接看 [快速开始](#快速开始)。想了解怎么复习、怎么答题，看 [`使用指南.md`](使用指南.md)。
@@ -60,7 +64,7 @@
 
 ### 方式一：把这段直接发给 AI 编辑器（最快，一键到位）
 
-适用：Cursor / Claude Code / WorkBuddy / OpenCode / Trae 等**能执行命令**的 AI 编辑器。
+适用：Cursor / Claude Code / WorkBuddy / OpenCode / Trae 等**能执行命令**的 AI 编辑器。还没有的话见 [获取 WorkBuddy](#获取-workbuddy)。
 
 新建一个空目录，把下面整段复制进去发送，剩下的它会自己做：
 
@@ -311,6 +315,32 @@ python3 tools/evaluate.py        # 回归评测
 | `Q12-BK-033/042/049` | 第 12 届原 Excel 未嵌入图片，无法显示 |
 
 考试时**先按题库答案作答**；若本校教材口径不同，以教材为准，并在答题时说明依据。
+
+---
+
+## 获取 WorkBuddy
+
+本知识库的「方式一 / 方式二」需要一个能读 `AGENTS.md`、能执行命令的 AI 客户端。[WorkBuddy](https://www.workbuddy.cn) 是其中一个选择：打开文件夹就会自动读取 `AGENTS.md`，直接跑 `tools/search.py`，不用手工配置。
+
+还没有的话，扫码或点邀请链接注册：
+
+<p align="center">
+  <a href="https://www.workbuddy.cn/events/invite?inviteCode=08foyuwog">
+    <img src="assets/workbuddy-qr.png" width="150" alt="WorkBuddy 邀请二维码">
+  </a>
+</p>
+
+**邀请链接**：https://www.workbuddy.cn/events/invite?inviteCode=08foyuwog
+（通过该链接注册可得 2000 积分，活动规则以官方页面为准）
+
+<details>
+<summary>展开邀请海报</summary>
+<p align="center">
+  <img src="assets/workbuddy-invite.png" width="300" alt="WorkBuddy 邀请海报">
+</p>
+</details>
+
+> 用 Cursor、Claude Code、OpenCode、Trae 等其它客户端一样可以，本项目**不绑定任何工具**。若只想用命令行或直接读 Markdown，完全不需要安装任何 AI 客户端（见快速开始的「方式三 / 方式四」）。
 
 ---
 
