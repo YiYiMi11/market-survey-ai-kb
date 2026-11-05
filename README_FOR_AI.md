@@ -1,6 +1,6 @@
 # README_FOR_AI · 给 AI 的使用说明
 
-本文件面向接入本工作区的 AI/Agent。人类用户请看 `README.md`。
+本文件面向接入本工作区的 AI/Agent。人类用户请看 `使用指南.md`（怎么用）与 `README.md`（项目总览）。
 
 ## 1. 你的角色
 
