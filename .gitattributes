@@ -1,0 +1,20 @@
+# 文本文件统一 LF，二进制自动识别
+* text=auto eol=lf
+
+# 明确标记二进制，避免 diff/换行处理
+*.doc    binary
+*.docx   binary
+*.xls    binary
+*.xlsx   binary
+*.pdf    binary
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+
+# Markdown 与脚本按文本处理
+*.md     text eol=lf
+*.py     text eol=lf
+*.jsonl  text eol=lf
+
+# CSV 由 tools/build_kb.py 以 CRLF 生成（Excel 兼容），固定为 CRLF 避免反复转换
+*.csv    text eol=crlf

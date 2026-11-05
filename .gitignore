@@ -1,0 +1,57 @@
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== AI 工作区本地状态（记忆、缓存、会话）=====
+.workbuddy/
+.agents/
+.cursor/
+.opencode/
+
+# ===== 临时文件 =====
+*.tmp
+*.temp
+*.bak
+*.log
+*.orig
+*.rej
+~$*
+.~*
+
+# ===== 系统垃圾 =====
+desktop.ini
+Thumbs.db
+
+# ===== 不入库：原始赛事材料与官方文件 =====
+# 官方盖章通知、报名须知、学生信息汇总表（含学校与个人信息）
+00_官方文件/
+# 赛事原始卷面（docx / xlsx / pdf），不在公开仓库分发
+2026年第17届市调大赛网考说明及网考模拟题/
+第12-16届网考相关资料/
+# 早期 Markdown 转写，与 10_题库/按届/ 重复
+99_归档/
